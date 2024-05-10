@@ -1,0 +1,11 @@
+Declare o bem herdado. Para apresentar à Receita que é o novo proprietário do imóvel, crie uma nova ficha na seção de "Bens e Direitos". Selecione o grupo "01 — Bens Imóveis" e escolha o código que representa a categoria do imóvel recebido.
+
+IR: Herança Imagem: Reprodução
+
+Mencione a herança. Após incluir as informações iniciais da ficha, adicione todos os dados a respeito do imóvel e a matrícula do bem no cartório. No campo "Discriminação", explique que a propriedade foi herdada, cite o nome e o CPF do falecido e o percentual de sua participação sobre o bem.
+
+Conteúdo UOL
+
+Cuidado com os valores. Mantenha em branco o campo "Situação em 31/12/2022 (R$)" e adicione o valor referente a sua participação em "Situação em 31/12/2023 (R$). Caso um imóvel de R$ 500 mil tenha sido partilhado entre dois herdeiros, inclua R$ 250 mil no espaço.
+
+Doação é isenta de impostos. Por se tratar de uma herança, o imóvel recebido do falecido está livre de impostos e precisa ser incluído também na ficha de "Rendimentos Isentos e Não Tributáveis" com o código "14 — Transferência Patrimoniais, Doações e Heranças". Depois, preencha o nome e o CPF do doador e o valor do bem.

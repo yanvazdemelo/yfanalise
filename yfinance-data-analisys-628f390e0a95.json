@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "yfinance-data-analisys",
+  "private_key_id": "628f390e0a95d7081e6d73f92ea4527722818094",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCUx5zRKkY130WP\nq/C+SNB0lrm9oBCnK31Du7jaayr3SnoyY2yiMuDFIFyVlRQR1z2LQpqpV41AlwF3\nOwrdIoT0QajVGvvEL/ewGsBduMBHV79h5CcXrCAg5/uQ739gmQLkKtUmGerCQ1Vd\n/g7D5kD1jd3BVXBfIEnNFZYyuo6WuWFiS8dtIDu0vfOwNECgzYTx5c/BRRQOzA7a\nEHjuLN5P+i1ApN7fZZSHAxS0oqy2rmB4M0/KJ1JdADTIGP9vWeSW/eS+tj4do+NL\nf3doR6q5lV5Vy8SzCpRHRjbUgc5B9w4tj5+QLqHQTD/7xm/OXiOwVVjobjmwZF6h\ns2l63rw5AgMBAAECggEABeM+W/Kp06DxzkU2IjmccjiywgPPFOZ+LwuDPbWG/kFG\nw662klakGXj14P+Ey03yxAuPNkteLiOrra26+NRQYaAlj8VhGDrzuNbeLPdOOKSK\n0NNoDqJDpTm49Vvc9RQpDqF5TOgyp5xliPIwYGVAxdbm4ys/5qvO79w+VOSYFvPQ\nnzQ6VBTkwapkQ9TUKLrLLuooy81/OW/KXj2Jbky/MduLtxV6b/GKHSTWnzduVKO/\nmNYDllsnAPcIOxwONnBy3NVeKIZpPMpLJdtH42TNwhpf9DEyTbfOcaR+uiKFmBsO\n/eq64A2GjZrhe9K5TiXeakSrkF2Azi17S3I0rbfP1wKBgQDSHHkAPubz+vC47sVJ\nJ3gW6+LelssYdYfYongvYXnHRd/pqjwrZBeBdgyKMCvgMX9NQIT+TOqRqi7Xik5m\nsXaKB5x8x7Le+XeswND+6NaK4ffdNIdz0qphTFHcXwjm64L6xuefrO7sQvJ65XXK\n+hMZzm6YfN4J0TqaiOuo70JFqwKBgQC1RgkdH/zi/PVDOPXA+zBsOeXzSrmloVvr\nyb3teIuoFL1GCt2eduotDsvS0NvrwSQxnIAhYbkwOjFWtm8ckTToB9TMBC8S0eVx\n/6hs4eJtMH0r/Md/617zBbhAu4fV2o82ACzVBTbdRPRjP0IroMyvjQD5quDD9zg6\nwFZsNOWZqwKBgGo/I6DQLhFp75hUhUa8wqk0lwBf2EuCAzO01HmBHQd7egK6prp6\nXriEbUrjmQxBe1IhMh813dfS6uTrd0HOs1aRCry+buD53V5qEkUUkIiiQ6iEC4qy\nGJ4i7bI2DFZY+V6+fhnsZNTr9ZnXtnzxf/8ouBw76Dumpa/HVQOUGTsJAoGAQR8/\n9u6e8wzdL6Eu6H1VEAxcx+J4f0BQvYxkZwN/aIrK1Hbi1yLxTe6a2smduDxSvF/0\nyAlLdj/xqa0wjZq83v6xO/nkz2YIf8PQxg0AQynATiUpppLwMW5EmzzDt9gkysmV\nUZHl++fhxCXdp77EyexmBUuWI9CUqsaeRZFbSrECgYBWi5VKUL4TS53Wriu4L2wC\nNiVcIvqfEs7FjBlG6CNthTHi6FVCvIKfb8Uk+XsO6RXW+GTDf8a0B7zjdFGkXZKQ\n5R97PGnYiUoYGNGhs1ZvmNBjVRE7jy73Wz4bXrkCf+pI6Oj05QnMWO3+L8edNi0v\nRTgr2gKhhrNW8E+rufynSQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "yfinance@yfinance-data-analisys.iam.gserviceaccount.com",
+  "client_id": "113924137515410550319",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yfinance%40yfinance-data-analisys.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
