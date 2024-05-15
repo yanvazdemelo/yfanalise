@@ -1,0 +1,231 @@
+
+'''
+empresasbr = {
+    'empresa': ['Vale', 'Itaú Unibanco', 'Bradesco', 'Ambev', 'Banco do Brasil', 'B3', 'Petrobras', 'Cielo', 'Eletrobras', 'Magazine Luiza',
+                'Votorantim', 'Gerdau', 'Rumo', 'Cyrela', 'Klabin', 'Randon', 'Ultrapar', 'Usiminas', 'Lojas Americanas', 'Suzano',
+                'Fleury', 'Gol', 'Santander Brasil', 'Localiza', 'Ecorodovias', 'Braskem', 'WEG', 'JBS', 'IRB Brasil', 'CCR'],
+    'codigo': ['VALE3.SA', 'ITUB4.SA', 'BBDC4.SA', 'ABEV3.SA', 'BBAS3.SA', 'B3SA3.SA', 'PETR4.SA', 'CIEL3.SA', 'ELET6.SA', 'MGLU3.SA',
+                'VVAR3.SA', 'GGBR4.SA', 'RAIL3.SA', 'CYRE3.SA', 'KLBN11.SA', 'RAPT4.SA', 'UGPA3.SA', 'USIM5.SA', 'LAME4.SA', 'SUZB3.SA',
+                'FLRY3.SA', 'GOLL4.SA', 'SANB11.SA', 'RENT3.SA', 'ECOR3.SA', 'BRKM5.SA', 'WEGE3.SA', 'JBSS3.SA', 'IRBR3.SA', 'CCRO3.SA'],
+    'pais': ['Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil',
+              'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil', 'Brasil'],
+    'nicho': ['Mineração', 'Serviços Financeiros', 'Serviços Financeiros', 'Bebidas', 'Serviços Financeiros', 'Serviços Financeiros', 'Petróleo e Gás', 'Tecnologia Financeira', 'Energia', 'Varejo',
+              'Diversificado', 'Metalurgia', 'Logística', 'Construção Civil', 'Papel e Celulose', 'Automotivo', 'Diversificado', 'Metalurgia', 'Varejo', 'Papel e Celulose',
+              'Saúde', 'Transporte Aéreo', 'Serviços Financeiros', 'Aluguel de Carros', 'Infraestrutura', 'Petroquímica', 'Energia', 'Alimentício', 'Seguros', 'Infraestrutura']
+}
+
+empresasar = {
+    'empresa': ['YPF', 'Grupo Financiero Galicia', 'Banco Macro', 'MercadoLibre', 'Telecom Argentina', 'BBVA Banco Francés', 'Cresud', 'Pampa Energía', 'Tenaris', 'Globant',
+                'Banco de la Nación Argentina', 'Ternium', 'Central Puerto', 'Banco Santander Río', 'Grupo Supervielle', 'YPF Luz', 'Banco BBVA Argentina', 'Transportadora de Gas del Sur', 'Despegar.com', 'Banco de Galicia y Buenos Aires',
+                'Aluar Aluminio', 'Molinos Río de la Plata', 'Edenor', 'IRSA Propiedades Comerciales', 'Banco Patagonia', 'Telefónica de Argentina', 'Siderar', 'Consultatio', 'Molinos Agro', 'TGS'],
+    'codigo': ['YPFD.BA', 'GGAL.BA', 'BMA.BA', 'MELI.BA', 'TECO2.BA', 'BBAR.BA', 'CRES.BA', 'PAMP.BA', 'TS.BA', 'GLOB.BA',
+               'BMA.BA', 'TXAR.BA', 'CEPU.BA', 'RIO.BA', 'SUPV.BA', 'YPFL.BA', 'BBVA.BA', 'TGSU2.BA', 'DESP.BA', 'GGAL.BA',
+               'ALUA.BA', 'MOLI.BA', 'EDN.BA', 'IRSA.BA', 'BPAT.BA', 'TECO2.BA', 'ERAR.BA', 'CTIO.BA', 'MOLA.BA', 'TGSU2.BA'],
+    'pais': ['Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina',
+             'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina',
+             'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina', 'Argentina'],
+    'nicho': ['Petróleo e Gás', 'Serviços Financeiros', 'Serviços Financeiros', 'Tecnologia', 'Telecomunicações', 'Serviços Financeiros', 'Agricultura', 'Energia', 'Metalurgia', 'Tecnologia',
+              'Serviços Financeiros', 'Metalurgia', 'Energia', 'Serviços Financeiros', 'Serviços Financeiros', 'Petróleo e Gás', 'Serviços Financeiros', 'Petróleo e Gás', 'Tecnologia', 'Serviços Financeiros',
+              'Metalurgia', 'Alimentício', 'Energia', 'Imobiliário', 'Serviços Financeiros', 'Telecomunicações', 'Metalurgia', 'Consultoria', 'Alimentício', 'Energia']
+}
+
+empresasmex = {
+    'empresa': ['América Móvil', 'Grupo México', 'FEMSA', 'Grupo Bimbo', 'Cemex', 'Grupo Financiero Banorte', 'Grupo Elektra', 'Gruma', 'Grupo Aeroportuario del Pacífico', 'Alfa', 
+                'Grupo Aeroportuario del Centro Norte', 'Grupo Carso', 'Genomma Lab Internacional', 'Grupo Aeroportuario del Sureste', 'Grupo Aeroportuario de la Ciudad de México', 
+                'Grupo Simec', 'Alpek', 'Controladora Vuela Compañía de Aviación', 'Gentera', 'Banco Santander México', 'Televisa', 'Grupo Lala', 'Grupo Herdez', 
+                'Grupo Cementos de Chihuahua', 'Grupo Gigante', 'Banco del Bajío', 'Grupo Sanborns', 'Fibra Uno', 'Grupo Industrial Maseca', 'Grupo Kuo'],
+    'codigo': ['AMXL.MX', 'GMEXICOB.MX', 'FEMSAUBD.MX', 'BIMBOA.MX', 'CEMEXCPO.MX', 'GFNORTEO.MX', 'ELEKTRA.MX', 'GRUMAB.MX', 'GAPB.MX', 'ALFAA.MX', 
+                'OMAB.MX', 'GCARSOA1.MX', 'LABB.MX', 'ASURB.MX', 'GACMAB.MX', 'SIMECB.MX', 'ALPEKA.MX', 'VLRS.MX', 'GENTERA.MX', 'BSMXB.MX', 'TLEVISACPO.MX', 
+                'LALAB.MX', 'HERDEZ.MX', 'GCC.MX', 'GIGANTE.MX', 'BBAJIOO.MX', 'GSANBORB-1.MX', 'FUNO11.MX', 'GRUMAB.MX', 'KUOB.MX'],
+    'pais': ['México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 
+             'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México', 'México'],
+    'nicho': ['Telecomunicações', 'Mineração', 'Bebidas', 'Alimentício', 'Construção', 'Serviços Financeiros', 'Varejo', 'Alimentício', 'Transporte', 'Conglomerado',
+              'Transporte', 'Conglomerado', 'Farmacêutico', 'Transporte', 'Transporte', 'Metalurgia', 'Químico', 'Transporte', 'Serviços Financeiros', 'Serviços Financeiros', 'Mídia',
+              'Alimentício', 'Alimentício', 'Construção', 'Varejo', 'Serviços Financeiros', 'Varejo', 'Imobiliário', 'Indústria', 'Conglomerado']
+}
+
+empresascol = {
+    'empresa': ['Ecopetrol', 'Grupo Aval', 'Bancolombia', 'Grupo Nutresa', 'Grupo Argos', 'Cementos Argos', 'Grupo Sura', 'Grupo Éxito', 'ISA', 'Banco de Bogotá',
+                'Grupo Bolívar', 'Grupo EPM', 'Almacenes Éxito', 'Terpel', 'Celsia', 'Bancolombia Preferencial', 'Davivienda', 'Grupo Energía Bogotá', 'Cementos Argos Preferencial', 'Grupo Nutresa Preferencial',
+                'Grupo Argos Preferencial', 'Grupo Aval Preferencial', 'Corficolombiana', 'ISA Preferencial', 'Banco de Bogotá Preferencial', 'Banco de Occidente', 'Grupo Sura Preferencial', 'Grupo Éxito Preferencial', 'Cemex Latam Holdings', 'ISA Pref A'],
+    'codigo': ['ECOPETL.BO', 'AVAL.BO', 'CIB.BO', 'NUTRESA.BO', 'GRUPOARG.BO', 'CEMARGOS.BO', 'GRUPOSURA.BO', 'EXITO.BO', 'ISA.BO', 'BOGOTA.BO',
+               'BOLIVAR.BO', 'EPM.BO', 'EXITO.BO', 'TERPEL.BO', 'CELSIA.BO', 'BCOLOMBIA.BO', 'PFDAVVNDA.BO', 'EEB.BO', 'CARTGENA.BO', 'NUTRESA.BO',
+               'GRUPOARG.BO', 'AVAL.BO', 'COLFIC.BO', 'ISA.BO', 'BOGOTA.BO', 'OCCIDENTE.BO', 'GRUPOSURA.BO', 'EXITO.BO', 'CLH.BO', 'ISA.BO'],
+    'pais': ['Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia',
+             'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia',
+             'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia', 'Colômbia'],
+    'nicho': ['Petróleo e Gás', 'Serviços Financeiros', 'Serviços Financeiros', 'Alimentício', 'Construção', 'Construção', 'Serviços Financeiros', 'Varejo', 'Energia', 'Serviços Financeiros',
+              'Serviços Financeiros', 'Energia', 'Varejo', 'Petróleo e Gás', 'Energia', 'Serviços Financeiros', 'Serviços Financeiros', 'Energia', 'Construção', 'Alimentício',
+              'Construção', 'Serviços Financeiros', 'Serviços Financeiros', 'Serviços Financeiros', 'Energia', 'Serviços Financeiros', 'Serviços Financeiros', 'Varejo', 'Varejo', 'Construção', 'Energia']
+}
+
+empresaschi = {
+    'empresa': ['Banco Santander Chile', 'LATAM Airlines Group S.A.', 'Cencosud S.A.', 'Enel Chile S.A.', 'SQM S.A.', 'Banco de Chile',
+                'CAP S.A.', 'Embotelladora Andina S.A.', 'Empresa Nacional de Electricidad S.A.', 'Banco BICE', 'Colbún S.A.', 'Copec S.A.',
+                'Entel Chile S.A.', 'Empresas Copec S.A.', 'SMU S.A.', 'Falabella S.A.', 'Banco Santander Chile', 'Banco de Crédito e Inversiones',
+                'ILC Grupo Security S.A.', 'Sonda S.A.', 'Banco Estado', 'Parque Arauco S.A.', 'Itaú Corpbanca', 'Viña Concha y Toro S.A.',
+                'Sociedad Matriz SAAM S.A.', 'Banco Santander Chile', 'Grupo Security S.A.', 'Enel Distribucion Chile S.A.', 'Inversiones La Construcción S.A.', 'BCI Seguros S.A.'],
+    'codigo': ['SAN.SN', 'LTM', 'CENCOSUD', 'ENELCHILE', 'SQM', 'BCH', 'CAP', 'ANDINA-A', 'ENELAM', 'BICE', 'COLBUN', 'COPEC',
+               'ENTEL', 'COPEC', 'SMU', 'FALABELLA', 'BSANTANDER', 'BCI', 'ILC', 'SONDA', 'ESTADO', 'PARAUCO', 'ITAUCORP', 'CONCHATORO',
+               'SAAM', 'BSAN.SN', 'SECURITY', 'ENELCHILE', 'ILC', 'BCI'],
+    'pais': ['Chile'] * 30,
+    'nicho': ['Serviços Financeiros', 'Transporte Aéreo', 'Varejo', 'Energia', 'Mineração', 'Serviços Financeiros', 'Indústria', 'Indústria', 'Energia', 'Serviços Financeiros',
+              'Energia', 'Energia', 'Telecomunicações', 'Indústria', 'Varejo', 'Varejo', 'Serviços Financeiros', 'Serviços Financeiros', 'Serviços Financeiros', 'Tecnologia',
+              'Tecnologia', 'Serviços Financeiros', 'Imobiliário', 'Serviços Financeiros', 'Bebidas', 'Serviços Financeiros', 'Serviços Financeiros', 'Energia', 'Serviços Financeiros', 'Seguros']
+}
+
+empresasper = {
+    'empresa': ['Credicorp Ltd.', 'Southern Copper Corporation', 'Volcan Compañía Minera S.A.A.', 'Banco de Crédito del Perú', 'Grana y Montero S.A.A.', 'Engie Energia Perú S.A.',
+                'Ferreyros S.A.A.', 'Minera Buenaventura S.A.A.', 'Banco Continental', 'Intercorp Financial Services Inc.', 'Lima Airport Partners S.R.L.', 'Cementos Pacasmayo S.A.A.',
+                'Graña y Montero S.A.A.', 'Inretail Peru Corporation S.A.', 'Inmobiliaria Panamericana S.A.A.', 'Alicorp S.A.A.', 'Hochschild Mining plc', 'Empresas Copec S.A.', 'Backus and Johnston',
+                'Aceros Arequipa S.A.', 'Refinería La Pampilla S.A.A.', 'Pacífico Seguros', 'Alicorp S.A.A.', 'E.W. Scripps Company', 'Gloria S.A.', 'Cencosud Shopping Centers S.A.', 'Rímac Seguros y Reaseguros S.A.',
+                'Ferreyros S.A.A.', 'Inmobiliaria Inversiones La Construcción S.A.A.'],
+    'codigo': ['BAP', 'SCCO', 'VOLCABC1', 'BAP', 'GRAMONC1', 'ENGIEC1', 'FERREYC1', 'BUE', 'BAP', 'IFS', 'AAPL1', 'CPACASC1', 'GRAMONC1', 'INRETC1', 'PAPAC1', 'ALICORC1',
+               'HOC.L', 'COPEC', 'BAP', 'BAP', 'RLP', 'BAP', 'ALICORC1', 'PRSGA', 'EWSCC1', 'PFA', 'CENCOSUD', 'RIMAC1', 'FERREYC1', 'ILCC1'],
+    'pais': ['Peru'] * 30,
+    'nicho': ['Serviços Financeiros', 'Mineração', 'Mineração', 'Serviços Financeiros', 'Construção', 'Energia', 'Construção', 'Mineração', 'Serviços Financeiros', 'Serviços Financeiros',
+              'Transporte', 'Construção', 'Construção', 'Varejo', 'Imobiliário', 'Alimentício', 'Mineração', 'Energia', 'Bebidas', 'Manufatura',
+              'Petróleo e Gás', 'Seguros', 'Alimentício', 'Mídia', 'Alimentício', 'Varejo', 'Seguros', 'Construção', 'Imobiliário']
+}
+
+empresas_tecnologicas = {
+    'empresa': ['Apple Inc.', 'Microsoft Corporation', 'Amazon.com Inc.', 'Alphabet Inc.', 'Facebook, Inc.', 'Tesla, Inc.', 'NVIDIA Corporation',
+                'Adobe Inc.', 'Intel Corporation', 'IBM (International Business Machines Corporation)', 'Netflix, Inc.', 'Salesforce.com, Inc.',
+                'Tencent Holdings Limited', 'Oracle Corporation', 'Cisco Systems, Inc.', 'Qualcomm Incorporated', 'PayPal Holdings, Inc.', 'Sony Corporation',
+                'Square, Inc.', 'Twitter, Inc.', 'Uber Technologies, Inc.', 'Zoom Video Communications, Inc.', 'Shopify Inc.', 'Palantir Technologies Inc.',
+                'Alibaba Group Holding Limited', 'Snowflake Inc.', 'Pinterest, Inc.', 'DocuSign, Inc.', 'Twilio Inc.', 'ServiceNow, Inc.'],
+    'codigo': ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'FB', 'TSLA', 'NVDA', 'ADBE', 'INTC', 'IBM', 'NFLX', 'CRM', 'TCEHY', 'ORCL', 'CSCO', 'QCOM', 'PYPL', 'SNE',
+               'SQ', 'TWTR', 'UBER', 'ZM', 'SHOP', 'PLTR', 'BABA', 'SNOW', 'PINS', 'DOCU', 'TWLO', 'NOW'],
+    'pais': ['EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'China', 'EUA', 'EUA', 'EUA', 'EUA', 'Japão', 'EUA',
+             'EUA', 'EUA', 'EUA', 'Canadá', 'EUA', 'China', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA'],
+    'nicho': ['Tecnologia'] * 30
+}
+
+empresas_financeiras = {
+    'empresa': ['JPMorgan Chase & Co.', 'Berkshire Hathaway Inc.', 'Bank of America Corporation', 'Wells Fargo & Company', 'Citigroup Inc.', 'Goldman Sachs Group, Inc.',
+                'Morgan Stanley', 'American Express Company', 'Mastercard Incorporated', 'Visa Inc.', 'The Charles Schwab Corporation', 'BlackRock, Inc.',
+                'S&P Global Inc.', 'Fidelity National Information Services, Inc.', 'Fiserv, Inc.', 'Capital One Financial Corporation', 'Nasdaq, Inc.',
+                'The Bank of New York Mellon Corporation', 'T. Rowe Price Group, Inc.', 'State Street Corporation', 'BB&T Corporation', 'Northern Trust Corporation',
+                'Ally Financial Inc.', 'E*TRADE Financial Corporation', 'Discover Financial Services', 'Intercontinental Exchange, Inc.', 'Ameriprise Financial, Inc.',
+                'CME Group Inc.', 'Raymond James Financial, Inc.', 'The Travelers Companies, Inc.'],
+    'codigo': ['JPM', 'BRK.B', 'BAC', 'WFC', 'C', 'GS', 'MS', 'AXP', 'MA', 'V', 'SCHW', 'BLK', 'SPGI', 'FIS', 'FISV', 'COF', 'NDAQ', 'BK', 'TROW', 'STT', 'BBT', 'NTRS',
+               'ALLY', 'ETFC', 'DFS', 'ICE', 'AMP', 'CME', 'RJF', 'TRV'],
+    'pais': ['EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA',
+             'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA'],
+    'nicho': ['Serviços Financeiros'] * 30
+}
+
+empresas_energia = {
+    'empresa': ['Saudi Aramco', 'Exxon Mobil', 'Royal Dutch Shell', 'China National Petroleum Corporation', 'BP', 'TotalEnergies', 'Saudi Arabian Oil Company', 'Chevron Corporation', 'Gazprom', 'Rosneft',
+                'Kuwait Petroleum Corporation', 'PetroChina', 'Eni', 'Abu Dhabi National Oil Company', 'Sinopec', 'Valero Energy', 'Phillips 66', 'Petrobras', 'Reliance Industries', 'PetroChina', 
+                'Equinor', 'PT Pertamina (Persero)', 'ConocoPhillips', 'EOG Resources', 'Lukoil', 'Marathon Petroleum', 'Pemex', 'Saudi Basic Industries Corporation (SABIC)', 'Enbridge', 'BHP',
+                'Exxon Mobil', 'E.ON', 'Petronas', 'Petronas Chemicals Group Berhad', 'NextEra Energy', 'Suncor Energy', 'Indian Oil Corporation', 'Occidental Petroleum', 'Duke Energy', 'Chesapeake Energy',
+                'Southern Company', 'Schlumberger', 'Canadian Natural Resources', 'Chevron Corporation', 'Woodside Petroleum', 'ConocoPhillips', 'EOG Resources', 'Repsol', 'EOG Resources', 'Devon Energy'],
+    'codigo': ['ARAMCO', 'XOM', 'RDS.A', 'PTR', 'BP', 'TTE', '2222.SE', 'CVX', 'OGZPY', 'ROSN.ME', 'KPC', 'PTR', 'ENI', 'ABD.NE', 'SNP', 'VLO', 'PSX', 'PBR', 'RELIANCE.NS', 'PTR', 
+               'EQNR', 'PERT.JK', 'COP', 'EOG', 'LKOH.ME', 'MPC', 'PXX', '2010.SE', 'ENB', 'BHP', 'XOM', 'EONGY', 'PETRONM', '5183.KL', 'NEE', 'SU', 'IOCL.NS', 'OXY', 'DUK', 'CHK',
+               'SO', 'SLB', 'CNQ', 'CVX', 'WPL.AX', 'COP', 'EOG', 'REP.MC', 'EOG', 'DVN'],
+    'pais': ['Arábia Saudita', 'EUA', 'Reino Unido / Países Baixos', 'China', 'Reino Unido', 'França', 'Arábia Saudita', 'EUA', 'Rússia', 'Rússia', 'Kuwait', 'China', 'Itália', 'Emirados Árabes Unidos',
+             'China', 'EUA', 'EUA', 'Brasil', 'Índia', 'China', 'Noruega', 'Indonésia', 'EUA', 'EUA', 'Rússia', 'EUA', 'México', 'Arábia Saudita', 'Canadá', 'Austrália', 'EUA', 'Alemanha',
+             'Malásia', 'Malásia', 'EUA', 'Canadá', 'Índia', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'Canadá', 'EUA', 'Austrália', 'EUA', 'EUA', 'Espanha', 'EUA', 'EUA'],
+    'nicho': ['Energia'] * 50
+}
+
+empresas_automotivas = {
+    'empresa': ['Toyota', 'Volkswagen', 'Daimler', 'General Motors', 'BMW', 'Honda', 'Ford', 'Nissan', 'Tesla', 'Hyundai', 'Audi', 'Volvo', 'Fiat Chrysler', 'Renault', 'Peugeot', 'Subaru', 'Kia', 'Mazda', 'Jaguar Land Rover', 'Mercedes-Benz',
+                'Mitsubishi', 'Porsche', 'Geely', 'BYD', 'Tata Motors', 'Suzuki', 'Ferrari', 'Bentley', 'Lamborghini', 'Rolls-Royce'],
+    'codigo': ['TM', 'VWAGY', 'DDAIF', 'GM', 'BMWYY', 'HMC', 'F', 'NSANY', 'TSLA', 'HYMTF', 'AUDVF', 'VOLVY', 'FCAU', 'RNSDF', 'PUGOY', 'FUJHY', 'HYMTF', 'MZDAY', 'TTM', 'DDAIF',
+               'MSBHY', 'POAHY', 'GELYY', 'BYDDY', 'TTM', 'SZKMY', 'RACE', 'BNTGF', 'VLKAF', 'RYCEY'],
+    'pais': ['Japão', 'Alemanha', 'Alemanha', 'EUA', 'Alemanha', 'Japão', 'EUA', 'Japão', 'EUA', 'Coreia do Sul', 'Alemanha', 'Suécia', 'Itália', 'França', 'França', 'Japão', 'Coreia do Sul', 'Japão', 'Reino Unido', 'Alemanha',
+             'Japão', 'Alemanha', 'China', 'China', 'Índia', 'Japão', 'Itália', 'Reino Unido', 'Itália', 'Reino Unido'],
+    'nicho': ['Automotiva'] * 30
+}
+empresas_varejo = {
+    'empresa': ['Walmart', 'Amazon', 'Alibaba', 'Costco', 'Home Depot', 'Tesco', 'Lowe\'s', 'Aldi', 'Inditex', 'Carrefour', 'JD.com', 'Target', 'IKEA', 'CVS Health', 'LVMH', 'Woolworths', 'Kroger', 'Lidl', 'Seven & i Holdings', 'Walgreens Boots Alliance',
+                'Best Buy', 'Shopify', 'Coles Group', 'Schwarz Group', 'Sainsbury\'s', 'Metro AG', 'Yum China Holdings', 'Ross Stores', 'X5 Retail Group', 'Macy\'s', 'Ahold Delhaize', 'Next plc', 'Zalando', 'Rite Aid', 'Fast Retailing', 'H&M', 'Gap', 'L Brands',
+                'Canadian Tire', 'O\'Reilly Auto Parts', 'Kingfisher', 'Ulta Beauty', 'Migros', 'Jeronimo Martins', 'Tractor Supply Company', 'J. Sainsbury', 'Marks & Spencer', 'Dollar General', 'Casino Guichard-Perrachon'],
+    'codigo': ['WMT', 'AMZN', 'BABA', 'COST', 'HD', 'TSCO', 'LOW', '', 'ITX', 'CA', 'JD', 'TGT', '', 'CVS', 'LVMUY', 'WOW', 'KR', '', '', '', 'WBA', 'BBY', 'SHOP', '', '', '', '', 'YUMC', 'ROST', '', 'M', 'ADRNY', 'NXT',
+               'ZAL', 'RAD', 'FRCOY', 'HNNMY', 'GPS', 'LB', 'CDNAF', 'ORLY', '', 'ULTA', '', '', 'JMT', 'TSCO', 'SBRY', 'MAKSY', 'DG', 'CGUSY'],
+    'pais': ['EUA', 'EUA', 'China', 'EUA', 'EUA', 'Reino Unido', 'EUA', 'Alemanha', 'Espanha', 'França', 'China', 'EUA', 'Suécia', 'EUA', 'França', 'Austrália', 'EUA', 'Alemanha', 'Japão', 'EUA', 'EUA', 'Canadá', 'Austrália', 'Alemanha',
+             'Reino Unido', 'Alemanha', 'China', 'EUA', 'Rússia', 'EUA', 'Holanda', 'Reino Unido', 'Alemanha', 'EUA', 'Suécia', 'EUA', 'EUA', 'Canadá', 'EUA', 'Reino Unido', 'EUA', 'Suíça', 'Portugal', 'EUA', 'Reino Unido', 'Reino Unido',
+             'EUA', 'França'],
+    'nicho': ['Varejo'] * 30
+}
+
+empresas_saude = {
+    'empresa': ['Johnson & Johnson', 'Roche Holding', 'Pfizer', 'Novartis', 'Merck & Co.', 'Abbott Laboratories', 'Sanofi', 'GlaxoSmithKline', 'Medtronic', 'Bristol-Myers Squibb',
+                'Eli Lilly and Company', 'Amgen', 'AstraZeneca', 'Novo Nordisk', 'Takeda Pharmaceutical', 'Gilead Sciences', 'Bayer', 'Becton Dickinson', 'Teva Pharmaceutical Industries', 'Stryker',
+                'AbbVie', 'Biogen', 'Regeneron Pharmaceuticals', 'Vertex Pharmaceuticals', 'Alexion Pharmaceuticals', 'Shire', 'Zoetis', 'Fresenius', 'Cigna', 'Cardinal Health'],
+    'codigo': ['JNJ', 'ROG', 'PFE', 'NOVN', 'MRK', 'ABT', 'SNY', 'GSK', 'MDT', 'BMY', 'LLY', 'AMGN', 'AZN', 'NVO', '4502.T', 'GILD', 'BAYN', 'BDX', 'TEVA', 'SYK',
+               'ABBV', 'BIIB', 'REGN', 'VRTX', 'ALXN', 'SHPG', 'ZTS', 'FRE', 'CI', 'CAH'],
+    'pais': ['EUA', 'Suíça', 'EUA', 'Suíça', 'EUA', 'EUA', 'França', 'Reino Unido', 'EUA', 'EUA', 'EUA', 'EUA', 'Reino Unido', 'Dinamarca', 'Japão', 'EUA', 'Alemanha', 'EUA', 'Israel', 'EUA',
+             'EUA', 'EUA', 'EUA', 'EUA', 'EUA', 'Irlanda', 'EUA', 'Alemanha', 'EUA', 'EUA', 'EUA'],
+    'nicho': ['Saúde'] * 30
+}
+
+empresas_construcao_civil = {
+    'empresa': ['China State Construction Engineering', 'China Railway Group', 'China Railway Construction', 'Vinci', 'ACS', 'Bouygues', 'Larsen & Toubro', 'Actividades de Construcción y Servicios', 'China Communications Construction', 'China Evergrande Group',
+                'Shimizu', 'Skanska', 'Bechtel', 'China Metallurgical Group', 'Power Construction Corporation of China', 'Obayashi Corporation', 'China Energy Engineering Corporation', 'Shanghai Construction Group', 'China National Building Material Group', 'China Resources Cement Holdings',
+                'VINCI Construction', 'China Gezhouba Group', 'CRH', 'China Railway Engineering Corporation', 'China National Machinery Industry Corporation', 'Sinohydro Group', 'Grupo ACS', 'China Railway Signal & Communication', 'China Communications Services Corporation', 'Beijing Urban Construction Group',
+                'China National Erzhong Group', 'China National Nuclear Corporation', 'Balfour Beatty', 'Daikin Industries', 'United Technologies Corporation', 'Japan Airlines', 'China National Aviation Holding', 'China Southern Airlines', 'Air China', 'Delta Air Lines',
+                'Sinopec', 'PetroChina', 'ExxonMobil', 'Royal Dutch Shell', 'Chevron', 'Total', 'BP', 'Petrobras', 'Schlumberger'],
+    'codigo': ['601668.SS', '0390.HK', '1186.HK', 'DG.PA', 'ACS.MC', 'EN.PA', 'LT.NS', 'ACS.MC', '1800.HK', '3333.HK',
+               '1803.T', 'SKA-B.ST', 'Privada', '1618.HK', '601669.SS', '1802.T', '601800.SS', '600170.SS', '601668.SS', '1899.HK', '1313.HK',
+               'DG.PA', '600068.SS', 'CRG.IR', '3898.HK', 'SINOVIS.BO', '601618.SS', 'ACS.MC', '600548.SS', '0554.HK', 'Privada',
+               '601268.SS', '601985.SS', 'BALF.L', '6367.T', 'UTX', '9201.T', '601111.SS', '1055.HK', '601111.SS', '601111.SS',
+               '600028.SS', '601857.SS', 'XOM', 'RDS-A', 'CVX', 'FP.PA', 'BP', 'PBR', 'SLB'],
+    'pais': ['China', 'China', 'China', 'França', 'Espanha', 'França', 'Índia', 'Espanha', 'China', 'China',
+             'Japão', 'Suécia', 'Estados Unidos', 'China', 'China', 'Japão', 'China', 'China', 'China', 'China',
+             'França', 'China', 'Irlanda', 'China', 'China', 'China', 'Espanha', 'China', 'China', 'China',
+             'China', 'China', 'Reino Unido', 'Japão', 'Estados Unidos', 'Japão', 'China', 'China', 'China',
+             'China', 'EUA', 'Holanda', 'EUA', 'EUA', 'França', 'Reino Unido', 'Brasil', 'EUA'],
+    'nicho': ['Construção Civil'] * 50
+}
+
+empresas_mineracao = {
+    'empresa': [
+        "BHP Group", "Rio Tinto", "Vale", "Glencore", "Anglo American", "Freeport-McMoRan", "Newmont Corporation", "Barrick Gold", "Teck Resources", "South32",
+        "Alcoa Corporation", "Gold Fields", "Newcrest Mining", "Fortescue Metals Group", "Southern Copper Corporation", "Aluminum Corporation of China Limited (Chalco)", "Codelco", "Nornickel", "Mosaic", "Lynas Rare Earths",
+        "Vale Indonesia", "First Quantum Minerals", "Wheaton Precious Metals", "Hudbay Minerals", "Turquoise Hill Resources", "OZ Minerals", "Lundin Mining Corporation", "Evolution Mining", "Pan American Silver", "Northern Star Resources",
+        "Kinross Gold Corporation", "Hecla Mining Company", "Yamana Gold", "SSR Mining", "Kirkland Lake Gold", "Alamos Gold", "Iamgold Corporation", "Agnico Eagle Mines Limited", "New Gold Inc.", "Endeavour Mining Corporation", "Harmony Gold Mining Company Limited",
+        "Centamin plc", "Hochschild Mining plc", "MAG Silver Corporation", "Pretium Resources Inc.", "Osisko Gold Royalties Ltd", "Shandong Gold Mining Co., Ltd.", "Silvercorp Metals Inc.", "Royal Gold, Inc.", "Polymetal International plc", "Sandstorm Gold Ltd.",
+        "Northern Dynasty Minerals Ltd.", "Fortuna Silver Mines Inc.", "Lundin Gold Inc."
+    ],
+    'codigo': [
+        "BHP", "RIO", "VALE", "GLEN.L", "AAL.L", "FCX", "NEM", "GOLD", "TECK", "S32",
+        "AA", "GFI", "NCM.AX", "FMG.AX", "SCCO", "2600.HK", "CODEL.SN", "GMKN.ME", "MOS", "LYC.AX",
+        "INCO.JK", "FM.TO", "WPM", "HBM", "TRQ", "OZL.AX", "LUN.TO", "EVN.AX", "PAAS", "NST.AX",
+        "KGC", "HL", "AUY", "SSRM", "KL", "AGI", "IAG", "AEM", "NGD", "EDV.TO", "HMY",
+        "CEY.L", "HOC.L", "MAG", "PVG", "OR.TO", "600547.SS", "SVM", "RGLD", "POLY.L", "SAND",
+        "NAK", "FSM", "LUG.TO"
+    ],
+    'pais': [
+        'Austrália', 'Austrália', 'Brasil', 'Suíça', 'Reino Unido', 'Estados Unidos', 'Estados Unidos', 'Canadá', 'Canadá', 'Austrália',
+        'Estados Unidos', 'África do Sul', 'Austrália', 'Austrália', 'Peru', 'China', 'Chile', 'Rússia', 'Estados Unidos', 'Austrália',
+        'Indonésia', 'Canadá', 'Canadá', 'Canadá', 'Estados Unidos', 'Austrália', 'Canadá', 'Austrália', 'Estados Unidos', 'Austrália',
+        'Canadá', 'Estados Unidos', 'Canadá', 'Estados Unidos', 'Canadá', 'Canadá', 'Canadá', 'Canadá', 'Canadá', 'Canadá', 'Reino Unido',
+        'Reino Unido', 'Canadá', 'Canadá', 'Canadá', 'China', 'Canadá', 'Reino Unido', 'Rússia', 'Canadá', 'Canadá',
+        'Estados Unidos', 'Canadá', 'Canadá'
+    ],
+    'nicho': ['Mineração'] * 50
+}
+
+indices_bolsas = {
+    'empresa': [
+        "Ibovespa", "S&P 500", "NASDAQ Composite", "FTSE 100", "DAX", "CAC 40", "Nikkei 225", "Hang Seng", "Shanghai Composite", "BSE Sensex",
+        "KOSPI", "S&P/ASX 200", "TSX Composite", "IBEX 35", "FTSE MIB", "RTS Index", "MOEX Russia", "Bovespa", "IPC Mexico", "IPC Colombia",
+        "MERVAL", "S&P/BMV IPC", "S&P/CLX IPSA", "BVC Bolivia", "BVN Peru", "IMC Chile", "BGS Paraguay", "IGBVL", "MSE Top 20 Index", "JSE All Share"
+    ],
+    'codigo': [
+        "^BVSP", "^GSPC", "^IXIC", "^FTSE", "^GDAXI", "^FCHI", "^N225", "^HSI", "000001.SS", "^BSESN",
+        "^KS11", "^AXJO", "^GSPTSE", "^IBEX", "FTSEMIB.MI", "^RTSI", "^IMOEX.ME", "^BVSP", "^MXX", "^COLCAP",
+        "^MERV", "^MXX", "^IPSA", "^BVP", "^SPBLPGPT", "^IGPA", "^BVLG", "^ITC", "^JALSH"
+    ],
+    'pais': [
+        "Brasil", "Estados Unidos", "Estados Unidos", "Reino Unido", "Alemanha", "França", "Japão", "Hong Kong", "China", "Índia",
+        "Coreia do Sul", "Austrália", "Canadá", "Espanha", "Itália", "Rússia", "Rússia", "Brasil", "México", "Colômbia",
+        "Argentina", "México", "Chile", "Bolívia", "Peru", "Chile", "Paraguai", "Peru", "Mongólia", "África do Sul"
+    ],
+    'nicho': ['Índices das Bolsas'] * 30
+}
+
+'''
